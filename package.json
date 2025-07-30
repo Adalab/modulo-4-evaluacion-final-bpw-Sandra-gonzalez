@@ -1,0 +1,24 @@
+{
+  "name": "modulo4-eval-final-sg",
+  "version": "1.0.0",
+  "description": "Evaluación final del módulo 4 de BackEnd con Node.js",
+  "homepage": "https://github.com/Adalab/modulo-4-evaluacion-final-bpw-Sandra-gonzalez#readme",
+  "bugs": {
+    "url": "https://github.com/Adalab/modulo-4-evaluacion-final-bpw-Sandra-gonzalez/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adalab/modulo-4-evaluacion-final-bpw-Sandra-gonzalez.git"
+  },
+  "license": "ISC",
+  "author": "sandra-gonzalez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
