@@ -45,3 +45,16 @@ Endpoints
 . POST/api/frases
 . PUT/frases/:id
 . DELETE/frases/:id
+. POST/register
+
+Sistema de autenticación con JSON Web Token
+Registro de una nueva usuaria. Se envia un JSON con los siguientes campos:
+
+{
+"email": "xxxx@email.com",
+"password": "contraseña1234",
+"nombre": "xxxxx"
+}
+El token tiene una duración de 1 hora.
+
+La contraseña se almacena en formato hasheado con bcrypt.
